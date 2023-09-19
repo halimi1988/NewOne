@@ -1,0 +1,14 @@
+package S;
+
+
+public class SeleunimPractic {
+
+	public static void main(String[] args) {
+		
+		
+		Webdriver jaj = new ChromeDriver();
+		
+
+	}
+
+}

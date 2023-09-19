@@ -1,0 +1,26 @@
+package p;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+		
+		byte ppo = 84;
+		short i = 3546;
+		int a = 10 ;
+		int e = 5;
+		long aa = 454564564654654l;
+		float p= 66545455.2f;
+		double kp = 465465454554.21;
+		char add  = 'a', akf = 'F';
+		boolean aad = false;
+		
+		String afd ;
+		int o = 8+55;
+		
+		System.out.println(a+""+e);
+		
+ 
+	}
+
+}

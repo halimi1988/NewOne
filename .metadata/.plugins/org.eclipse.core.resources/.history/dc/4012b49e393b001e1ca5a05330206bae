@@ -1,0 +1,12 @@
+package f;
+
+public class P {
+
+	public static void main(String[] args) {
+	
+		
+		
+		System.out.println("I will make it Inshullah");
+	}
+
+}

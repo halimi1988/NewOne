@@ -1,0 +1,36 @@
+package Practttt;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+public class actionsClass {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\abhal\\Desktop\\Chrome 32 new\\chromedriver.exe");
+		WebDriver we = new ChromeDriver();
+		we.get("http://tek-school.com/retail/");
+		we.manage().window().maximize();
+		WebElement loptoView = we.findElement(By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[2]/a"));
+		//loptoView.click();
+		//WebElement vew = we.findElement(By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[2]/div/a"));
+	   // 	vew.click();
+		WebElement viwe = we.findElement(By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[2]/div/a"));
+		//viwe.click();
+		
+		Actions a = new Actions (we);
+		a.clickAndHold(loptoView).build().perform();
+		a.doubleClick(viwe).build().perform();
+	
+		WebElement shortby = we.findElement(By.xpath("//select[@id='input-sort']"));
+	//	a.clickAndHold(shortby).build().perform();
+		Select S = new Select(shortby);
+		//S.deselectByValue(shortby);
+		
+	}
+
+}

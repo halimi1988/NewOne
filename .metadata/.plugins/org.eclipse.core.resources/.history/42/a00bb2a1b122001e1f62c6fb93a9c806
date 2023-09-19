@@ -1,0 +1,89 @@
+package FirstP;
+
+public class plandaramAb {
+
+	public static void main(String[] args) {
+	
+		
+		String Sp = "wow";
+		String rS = "" ;
+		
+		for (int i = Sp.length()-1; i >= 0; --i) {
+			//System.out.println(Sp.charAt(i));
+		
+		rS = rS + Sp.charAt(i);
+		
+		
+
+		}if (Sp.equals(rS)) {System.out.println(Sp + " it is planddram String");}
+		else {System.out.println(Sp + " it not is planddram String");}
+		
+		
+		
+		
+		
+		
+		
+		int num = 223;
+		int rev = 0;
+		int real = num;
+		
+		
+		
+		while (num > 0) {
+			
+			rev = rev *10 + num % 10;
+			//System.out.print(rev);
+			num = num/ 10;
+		} if (real == rev) {System.out.println(rev+"  plandram ");}else {System.out.println( rev +"  Not Plandram");}
+	
+
+	String ii = "test";
+	String aa = "test";
+	String aaa = new String ("test");
+	
+	if (ii == aa) {System.out.println("yes eq");}
+	
+	if (ii == aaa) {System.out.println("yes eq");}else {System.out.println("no");}
+	
+	
+	if (ii.equals(aaa)) {System.out.println("yes eq");}
+	
+	int max = 0;
+	int mim = 0;
+	
+	int [] a = {4,545,45,434,4,-5,-45};
+	for (int i = 0 ; i < a.length ; i++) {
+		
+		if (max > a [i]) {
+			max = a [i];
+			
+		}else if (mim < a[i]) {
+			mim = a[i];
+			
+		}
+		
+		
+	}System.out.println(mim);
+	System.out.println(max);
+	
+	String ooo = "mom";
+	String oo = "mom";
+	
+	System.out.println(ooo.contentEquals(oo));
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+}
+	
+

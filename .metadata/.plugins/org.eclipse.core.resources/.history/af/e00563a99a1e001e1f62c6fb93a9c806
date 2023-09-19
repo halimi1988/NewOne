@@ -1,0 +1,22 @@
+package FirstP;
+
+public class plandaramAb {
+
+	public static void main(String[] args) {
+	
+		
+		int num = 2552;
+		int rev = 0;
+		int real = num;
+		int s = 0;
+		
+		
+		while (num > 0) {
+			
+			rev = rev *10 + num % 10;
+			System.out.print(rev);
+			num = num/ 10;
+		} if (real == rev) {System.out.println("  plandram ");}else {System.out.println( "  Not Plandram");}
+	}
+
+}

@@ -1,0 +1,43 @@
+package Practttt;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ScreenS {
+
+	private static TimeUnit second;
+
+	public static void main(String[] args) {
+		
+		
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\abhal\\Desktop\\Chrome 32 new\\chromedriver.exe");
+		WebDriver dr = new ChromeDriver();
+		dr.get("http://tek-school.com/hotel/");
+		dr.manage().window().maximize();
+		
+		WebElement Sin = dr.findElement(By.xpath("//*[@id=\"header\"]/div[3]/div/div/div[7]/ul/li/a/span"));
+		Sin.click();
+		dr.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+		WebElement mail = dr.findElement(By.xpath("//*[@id=\"email\"]"));
+		mail.sendKeys("halimi1988@yahoo.com");
+	    WebElement pass = dr.findElement(By.xpath("//*[@id=\"passwd\"]"));
+	    pass.sendKeys("44444uuyhj");
+	    WebElement singin = dr.findElement(By.xpath("//*[@id='SubmitLogin']"));
+	    singin.click();
+	    dr.quit();
+	}
+
+	
+	/*public static void screenS (WebDriver dr,String loation, String fileName) {
+		File file = (File) ((TakesScreenshot)dr).getScreenshotAs(OutputType.FILE);
+		
+		try{(file,new File(location+fileName+ ".png"));} catch (IOException) {
+			
+		}
+	}*/
+}

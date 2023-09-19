@@ -1,0 +1,21 @@
+package FirstP;
+
+import java.util.ArrayList;
+
+public class ArrPractice {
+
+	public static void main(String[] args) {
+
+
+		
+		ArrayList <String > af = new ArrayList<String>();
+		
+		
+		af.add("Kabab");
+		af.add("Surba");
+		af.add(10, "Frini");
+		
+		System.out.println(af.size());
+	}
+
+}

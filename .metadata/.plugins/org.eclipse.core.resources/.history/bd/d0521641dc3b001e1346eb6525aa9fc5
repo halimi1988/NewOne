@@ -1,0 +1,18 @@
+package f;
+
+public class P {
+
+	public static void main(String[] args) {
+	
+		
+		
+		System.out.println("I will make it Inshullah");
+		
+		System.setProperty("webdriver.chrome.driver", "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/115.0.5790.170/win64/chromedriver-win64.zip")
+		WebDriver a = new ChromeDriver();
+		
+		
+		
+	}
+
+}

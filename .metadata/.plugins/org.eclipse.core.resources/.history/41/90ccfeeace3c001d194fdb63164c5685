@@ -1,0 +1,12 @@
+package selenuiamp;
+
+public class Se {
+
+	public static void main(String[] args) {
+		
+		
+		String j = "jjjj";
+		System.out.println(j);
+	}
+
+}

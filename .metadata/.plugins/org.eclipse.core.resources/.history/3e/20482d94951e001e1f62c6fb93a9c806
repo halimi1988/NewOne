@@ -1,0 +1,258 @@
+package FirstP;
+
+import java.util.Scanner;
+
+public class FirstP {
+
+	public static void main(String[] args) {
+		
+		
+		long ua = 65446154654l;
+		
+		double ia = 90.5;
+		
+		String a = "Abdullah"; 
+		//Suum(5,5);
+		fName("Abdullah", "Halimi", 32);
+		//int ab = 9;
+		//int aa = Abdul + " Hi" + ab;
+		
+		//System.out.println(a+"\n"+ab);
+		double ja = 584831.223;
+		boolean jaja = true; 
+	 
+		
+		int g = 80;
+		if (g >= 95 & g  <= 100) {System.out.println("A+");}
+		else if (g >= 90 & g <= 94) {System.out.println("A");}
+		else if (g >= 65 & g <= 89) {System.out.println("C");}
+		else {System.err.println("You Faild");}
+
+		
+		int h = 90;
+		
+		while (h <= 95) {System.out.println("come next year sweeti");
+		h++;}  {System.out.println("good-------------------------\n");}
+		
+		int iaa = 40;
+		int i = 19 ;
+		
+		
+		if (i ==15 ) { 
+			if (iaa == 40 ) {System.out.println("wow mane");}
+				System.out.println("opps");}else {System.out.println("OKKKKKKKKKKKK\"o\"sooooO\rkay");}
+		
+		h =5;
+		System.out.println(h);
+		
+		
+		boolean u = true; 
+		int od = 65;
+		
+		while (!u ) {; ++od;
+		
+		
+		//System.out.println(od);
+		if (od >= 65 ) {
+			u = false;
+			System.out.println("you passd");
+		}}
+		
+		boolean p = false;
+		System.out.println(!p);
+		
+		
+		boolean bb = false;
+		int nu =0;
+		
+		while (!bb) {System.out.print(++nu+"\s");
+		if (nu >= 10 ) while (!bb) {System.out.println(++nu+"\s");
+		if (nu >= 10 )
+			bb = true;
+			System.out.println("finaly ");
+		}	
+			
+		}
+		
+		
+		int io = 0;
+		
+		for(int i1 = 0; i1 < 10; i1++) {System.out.print(++io+"\n");}
+ System.out.println("-----------------------------------------");
+		
+ 
+ 		int ii = 0;
+		for(int ip = 0;ip<= 4;ip++){
+			for(int i1 = 0;i1<= ip  ;i1++){ System.out.print(ip+ "*"); }
+			System.out.println(" +");}
+		
+		
+		
+		int ioo = 5;
+		for(int ip = 5;ip >= 0;--ip){
+			for(int i1 = 5;i1 >= ip  ;--i1){ System.out.print(i1); }
+			System.out.println(ip);}
+		
+		for(int poo = 4 ; poo >= 1; --poo) {System.out.print(poo);}
+		
+		
+		
+		for (int aa = 0; aa <=30; ++aa) {
+			if (aa % 3 ==0 && aa % 5 == 0  ) {System.out.println(aa + "$");}
+			else if (aa % 3 ==0) {System.out.println(aa+" good");}
+			else{System.out.println(aa);}
+		}
+		int j = 0;
+		
+		do {System.out.print(j++);}
+		while(j >0 && j<= 9 );
+		
+		System.out.println("==============================");
+		
+		int [][]ab = new int[2][5];
+		ab [0][3]= 1;
+		ab [0][2]= 24;
+		ab [0][1]= 61;
+		ab [1][1]= 5465;
+		ab [1][3]= 14654;
+		ab [1][0]= 54464;
+		
+		int [] aab = new int[7];
+		aab [0]= 1;
+		aab [1]= 24;
+		aab [2]= 61;
+		aab [4]= 5465;
+		aab [5]= 14654;
+		aab [6]= 54464;
+		
+		for (int ak = 0; ak < aab.length ; ak++) {System.out.println(aab[ak]);}
+		System.out.println("length of arry "+aab.length);
+		
+		
+		int [][]ow = {{41,1,4},{4,4}};
+		System.out.println(ow[0][0]);
+		System.out.println("]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]");
+		
+		
+		String [][]ph = new String[10][20];
+		
+		ph[0][6]= "Abdullah Halimi";
+		ph[1][9]= "Ab Halimi";
+		ph[2][1]= "a Halimi";
+		ph[3][8]= "h Halimi";
+		ph[6][8]= "L Halimi";
+		
+	//	System.out.println(ph[2][1]);
+		
+	/*	for(int r = 0; r <ph.length; r++) {
+			for(int c = 0; c < ph[r].length; c++) {
+				System.out.println(ph[r][c]);
+			}
+		}*/
+		
+		
+  /*		for (int row = 0; row < ph.length; row++) {
+			for(int cl = 0; cl <ph[row].length; cl++) {
+			System.out.println(ph[row][cl]);}
+			System.out.println();}   
+		*/
+	
+		String [] jp = new String [5];
+		
+		jp [0] = "Ab Halimi";
+		jp [2] = "a Halimi";
+		jp [3] = "h Halimi";
+		jp [4] = "L Halimi";
+		
+	//	for (int i1 = 0; i1 <=jp.length; i1++) {System.out.println(i1+1 + " "+jp[i1]);}
+		
+		
+		
+		System.out.println("---------------------Plandram-------------------------------");
+		
+		
+		String pp = "Door";
+		int ppa = pp.length()-1;
+		
+		
+		System.out.println(ppa);
+		
+		for (int ah = 0; ah < pp.length(); ah++) {System.out.println(pp.charAt(ah));
+		for (int aa = pp.length()-1 ; aa >= 0; --aa) {}}
+		
+			
+			
+			
+			
+			String im = "Abdullah";
+			String rev = null;
+			
+		
+			
+			for (int n = im.length()-1; n >= 0 ; --n) {
+				
+				rev = rev +im.charAt(n);
+				System.out.println(rev);}
+			
+			if (im.equals(rev)) {
+				System.out.println("it is plandram");
+			}else {System.out.println("not plandarram");}
+			
+			
+			
+			int number = 121;
+			int s = 0;
+			int r = 0;
+			int realN = number;
+			
+			System.out.println(ass);
+			
+			while (number > 0) {
+			
+			 r = number %10;
+			 System.out.print(r);
+			 number = number /10;
+			// s = s *10 + r;
+			
+			// System.out.println(s);
+			}
+			 if (realN == r) {System.out.println("pa");} else {System.out.println("no");}
+			
+			
+			
+			
+			
+			
+			
+	}
+			
+			
+			
+			
+			
+			
+		
+				
+
+	public static String fName (String FirtN, String Last, int age) {
+		
+		
+		System.out.println(FirtN + Last + age);
+		return FirtN;
+	}
+
+	static void  Suum (int a , int ab) {
+		int aaa = a + ab;
+		System.err.println(aaa);
+	
+	//	System.out.println(aaa);}
+	}
+}
+
+	
+	
+	
+
+
+
+

@@ -1,0 +1,29 @@
+package p;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+		
+		byte ppo = 84;
+		short i = 3546;
+		int a ;
+		double e = 3;
+		long aa = 45654L;
+		float p= 66545455.2f;
+		double kp = 4545465.21;
+		char add  = 'a', akf = 'F';
+		boolean aad = false;
+		double io = 0.0/0.0;
+		String afd ;
+		int o = 8+55;
+		a-=7;
+		
+		a = 95;
+		
+		if (a <= 90 && a >= 100) {System.out.println("Yes it is "+ a);} //else if {System.out.println("It is not equal");}
+		
+ 
+	}
+
+}

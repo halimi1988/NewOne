@@ -1,0 +1,34 @@
+package FirstP;
+
+import java.util.ArrayList;
+
+public class ArrPractice {
+
+	public static void main(String[] args) {
+
+
+		
+		ArrayList <String > af = new ArrayList<String>();
+	af.add("Kabab");
+	af.add("Roshaa kakababb");
+	
+	
+	ArrayList <String > dr = new ArrayList<String>();
+	dr.add("Cola");
+	dr.add("Picp");
+	 
+	
+	ArrayList <String > fr = new ArrayList<String>();
+	fr.add("Anar");
+	fr.add("Seban");
+	
+	ArrayList <ArrayList <String >> All = new ArrayList();
+	All.add(af);
+	All.add(dr);
+	All.add(fr);
+	System.out.print(All.indexOf(0)); 
+	}
+	
+	
+
+}
